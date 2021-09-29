@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "ericstempapp"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-y55kgrxi0su5"
+s3_prefix = "ericstempapp"
+region = "us-west-2"
+capabilities = "CAPABILITY_IAM"
